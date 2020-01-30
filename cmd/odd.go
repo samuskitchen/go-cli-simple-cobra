@@ -25,13 +25,8 @@ import (
 // oddCmd represents the odd command
 var oddCmd = &cobra.Command{
 	Use:   "odd",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Add odd numbers",
+	Long: `This is same as 'even' command. Instead of adding even numbers, it will add odd numbers.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		var oddSum int
 
