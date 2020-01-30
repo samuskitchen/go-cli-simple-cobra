@@ -1,4 +1,5 @@
 # Go CLI Simple With Cobra
+[![Build Status](https://travis-ci.org/samuskitchen/go-cli-simple-cobra.svg?branch=master)](https://travis-ci.org/samuskitchen/go-cli-simple-cobra)
 
 This is the basic addition operation cli built in golang using cobra library based on the article of a [blog](https://towardsdatascience.com/how-to-create-a-cli-in-golang-with-cobra-d729641c7177).
 
